@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 
-export default function (props) {
+export default function Taskbar(props) {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
