@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+body {
+  background-color: #141414;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+  margin-left: 300px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+  background-color: #282828;
+  width: 45vh;
+  height: 45vh;
+  margin: 2vh;
+  padding: 1vh;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px 10px #ffcc00;
+}
+.PokeImage {
+  margin: 1vh;
+  padding: 2vh;
+  background-color: #000000;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+.PokeDetails {
+  margin: 1vh;
+  color: #bb86fc;
+  padding: 0.5vh;
+  padding-left: 15vh;
+}
+#DefImage {
+  width: 35vh;
+  height: 33vh;
+}
+.viewbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 1vh; Optional: adds space between items */
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.viewbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #141414;
+  min-height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Detail Page */
+.detail-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  height: 100vh;
+  padding: 60px 80px;
+  color: #fff;
+  animation: fadeIn 0.5s ease-in-out;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
+.detail-left {
+  flex: 1;
+  text-align: left;
+  max-width: 600px;
+  whitespace: pre-wrap;
+}
+
+.detail-left h1 {
+  font-size: 3rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.detail-left p {
+  font-size: 1.3rem;
+  color: #cccccc;
+  line-height: 1.8;
+}
+
+.detail-image {
+  flex-shrink: 0;
+  width: 400px;
+  height: auto;
+  max-height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 1s ease-in-out;
+}
+.detail-image:hover {
+  transform: scale(1.1);
+
+  box-shadow: 0 0 25px 10px #ffcc00;
+}
+/* Back button */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ffcc00;
+  color: #141414;
+  border: none;
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #e6b800;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+  background-color: #1e1e1e;
+  border-top: 1px solid #333;
+  margin-top: 2rem;
 }
