@@ -6,7 +6,7 @@ export default function Taskbar(props) {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="%PUBLIC_URL%/public/index.html">
             <img src={logo} alt="Logo" width="500" height="50" />
           </a>
           <button
