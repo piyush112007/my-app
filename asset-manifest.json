@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.874ce289.css",
-    "main.js": "/my-app/static/js/main.83135d44.js",
+    "main.css": "/my-app/static/css/main.cd8b1241.css",
+    "main.js": "/my-app/static/js/main.5b90ca3c.js",
     "static/js/453.96453769.chunk.js": "/my-app/static/js/453.96453769.chunk.js",
     "static/media/growlite.svg": "/my-app/static/media/growlite.fd5062742b82f26183ef91cc0fe8ae41.svg",
     "static/media/drowsi.svg": "/my-app/static/media/drowsi.ccafcf216e4174a6887b6d07ec962872.svg",
@@ -21,12 +21,12 @@
     "static/media/Pikachu.svg": "/my-app/static/media/Pikachu.30fe42a0a27dadac15cc66c538dede7e.svg",
     "static/media/logo.svg": "/my-app/static/media/logo.17b2d8c1482f004467895f547c5a57f7.svg",
     "index.html": "/my-app/index.html",
-    "main.874ce289.css.map": "/my-app/static/css/main.874ce289.css.map",
-    "main.83135d44.js.map": "/my-app/static/js/main.83135d44.js.map",
+    "main.cd8b1241.css.map": "/my-app/static/css/main.cd8b1241.css.map",
+    "main.5b90ca3c.js.map": "/my-app/static/js/main.5b90ca3c.js.map",
     "453.96453769.chunk.js.map": "/my-app/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.874ce289.css",
-    "static/js/main.83135d44.js"
+    "static/css/main.cd8b1241.css",
+    "static/js/main.5b90ca3c.js"
   ]
 }
